@@ -20,13 +20,13 @@ body {
 }
 
 
-/*NAV BAR*/
+/*********NAV BAR********/
 
 .main-nav {
-    list-style: none;
     display: flex;
-    font-size: 0.7em;
+    list-style: none;
     margin: 0;
+    font-size: 0.7em;
 }
 
 @media only screen and (max-width: 600px) {
@@ -56,31 +56,36 @@ a {
 }
 
 
-/* COVER */
+/********** COVER *********/
 
 .container {
+    height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 70vh;
 }
 
 .cover {
     width: 30rem;
 }
 
-/* GRID */
+/********* GRID *********/
 
 .grid-wrapper {
     display: grid;
-    gap: 20px;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 20px;
 }
 
 .box {
     background-color: #444;
-    padding: 100px;
+    padding: 130px;
     margin: 20px;
+}
+
+.box > img {
+    width: 100%;
+    /*height: auto;*/
 }
 
 .box:hover {
@@ -90,12 +95,8 @@ a {
     transform: rotate(-3deg);
 }
 
-.box > img {
-    width: 100%;
-    height: auto;
-}
 
-/* FOOTER */
+/********** FOOTER *********/
 
 footer {
     text-align: center;
