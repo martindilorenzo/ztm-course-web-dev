@@ -1,0 +1,15 @@
+.hecho {
+	text-decoration: line-through;
+}
+
+li {
+    width: fit-content;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+.eliminar {
+    margin-left: 15px;
+}
